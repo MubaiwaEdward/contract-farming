@@ -36,7 +36,5 @@ public class contractcost extends BaseEntity {
     @Column(name = "contract_end_date", nullable = false)
     private LocalDateTime endDate;
 
-    @Column(name = "contractor_id", nullable = false, length = 45)
-    private String contractor;
 }
 
