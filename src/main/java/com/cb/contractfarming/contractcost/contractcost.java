@@ -37,7 +37,7 @@ public class contractcost extends BaseEntity {
     private LocalDateTime endDate;
 
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "farmer_id", nullable = false)
+    @JoinColumn(name = "farmerName", nullable = false)
     @JsonIgnore
     private Farmer farmer;
 
